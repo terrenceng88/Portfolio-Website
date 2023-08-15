@@ -12,7 +12,7 @@ function PageTransitions() {
             currentBtn[0].className = currentBtn[0].className.replace('active-btn', '');
             this.className += 'active-btn';
         })
-    }
+    } 
 
     //Sections Active Class
     allSections[0].addEventListener('click', (e) => {
